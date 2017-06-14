@@ -1,0 +1,5 @@
+<h2>{{title}}</h2>
+<button>Circles</button>
+<ul *ngFor="let items of circle">
+    <li><button (click)="selectCircle(items.circleName)">{{items.circleName}}</button></li>
+</ul>

@@ -1,3 +1,18 @@
-<h1>
-  {{title}}
-</h1>
+
+<search-bar></search-bar>
+<div class="container"
+     fxLayout
+     fxLayout.xs="column"
+     fxLayoutAlign="center"
+     fxLayoutGap="10px"
+     fxLayoutGap.xs="0">
+   <div  fxFlex="50%">
+   <leftside></leftside>
+   </div>
+
+     <div class="maincontent" fxFlex="50%"><router-outlet>
+      
+    </router-outlet>
+    <description></description>
+  </div>
+  </div>
